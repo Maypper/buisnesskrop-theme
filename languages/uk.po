@@ -1,0 +1,1898 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: business-krop-online\n"
+"POT-Creation-Date: 2022-02-22 21:20+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Grebenshchikov <andrey19821975l@gmail.com>\n"
+"Language-Team: SPLIT\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: 404.php:16
+msgid "Page not found"
+msgstr "Сторінку не знайдено"
+
+#: 404.php:17
+msgid "Oh, something went wrong, we can't find the page you wanted to go to."
+msgstr "Ой, щось пішло не так, ми не можемо знайти сторінку на яку ви хотіли перейти."
+
+#: 404.php:19 template-parts/modals/add_brand_confirm.php:26
+#: template-parts/modals/brand-ownership-send.php:22
+msgid "Back to home page"
+msgstr "Повернутись на головну"
+
+#: archive-brands.php:7
+msgid "Catalog of brands/businesses"
+msgstr "Каталог брендів/бізнесів"
+
+#: archive-brands.php:15 archive-places.php:35 search.php:23
+#: template-parts/blocks/heros/home-hero.php:125
+msgid "Advanced search"
+msgstr "Розширений пошук"
+
+#: archive-news.php:21 page-templates/news-page.php:21
+#: taxonomy-catecory-news.php:20
+msgid "Filters"
+msgstr "Фільтри"
+
+#: archive-news.php:57 page-templates/news-page.php:57
+#: taxonomy-catecory-news.php:56
+msgid "Quantity"
+msgstr "Кількість"
+
+#: archive-places.php:13
+msgid "Interesting places to visit"
+msgstr "Цікаві для відвідування місця"
+
+#: assets/scripts/js-api-loader.js:1
+msgid "Can't call method on "
+msgstr "Can't call method on "
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Один коментар до &ldquo;%1$s&rdquo;"
+
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s коментар до &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s коментаря до &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s коментарів до &ldquo;%2$s&rdquo;"
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr "Коментарі закриті."
+
+#: footer.php:67
+msgid "Contact us"
+msgstr "Зв’язатися з нами"
+
+#: header.php:105 header.php:142 inc/template-methods.php:183
+msgid "Search"
+msgstr "Пошук"
+
+#: header.php:119 page-templates/brand-settings.php:13
+#: page-templates/brand-statistic.php:13 page-templates/personal-info.php:13
+#: template-parts/modals/brand-ownership-send.php:17
+msgid "Personal account"
+msgstr "Особистий кабінет"
+
+#: header.php:139
+msgid "Enter a query, such as City Council"
+msgstr "Введіть запит, наприклад “Міська рада”"
+
+#: header.php:199
+msgid "Add a business"
+msgstr "Додати бізнес"
+
+#: inc/ajax/restore-access.php:12 page-templates/restore-access.php:138
+msgid "Please enter your email or username"
+msgstr "Будь ласка, введіть електронну пошту або ім'я користувача"
+
+#: inc/ajax/restore-access.php:18 inc/ajax/restore-access.php:26
+#: page-templates/restore-access.php:141
+msgid "User with such email or username not registered"
+msgstr "Користувач з такою електронною поштою або ім'ям користувача не зареєстрований"
+
+#: inc/ajax/restore-access.php:46 inc/ajax/restore-access.php:50
+msgid "Sorry, unable reset password."
+msgstr "Вибачте, змінити пароль неможливо."
+
+#: inc/ajax/restore-access.php:71
+msgid "Someone requested that the password be reset for the following account:"
+msgstr "Хтось зробив запит на скидання паролю для цього облікового запису:"
+
+#: inc/ajax/restore-access.php:73
+#, php-format
+msgid "Username: %s"
+msgstr "Ім'я користувача: %s"
+
+#: inc/ajax/restore-access.php:74
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Якщо це помилка, то проігноруйте цей електронний лист і нічого не відбудеться."
+
+#: inc/ajax/restore-access.php:75
+msgid "To reset your password, paste this code in form"
+msgstr "Для зміни вашого паролю скопіюйте цей код та вставте в форму"
+
+#: inc/ajax/restore-access.php:86
+#, php-format
+msgid "[%s] Password Reset"
+msgstr "[%s] Відновлення паролю"
+
+#: inc/ajax/restore-access.php:94
+msgid "The e-mail could not be sent."
+msgstr "Неможливо відправити електронний лист."
+
+#: inc/ajax/update-password.php:24 page-templates/restore-access.php:28
+msgid "Incorrect code, check that it is entered correctly"
+msgstr "Невірний код, перевірте правильність введення"
+
+#: inc/cpt-init.php:7 inc/cpt-init.php:15
+msgid "City districts"
+msgstr "Райони міста"
+
+#: inc/cpt-init.php:8
+msgid "City district"
+msgstr "Район міста"
+
+#: inc/cpt-init.php:9
+msgid "Search city district"
+msgstr "Знайти район міста"
+
+#: inc/cpt-init.php:10
+msgid "All city districts"
+msgstr "Всі райони міста"
+
+#: inc/cpt-init.php:11
+msgid "Edit city district"
+msgstr "Редагувати район міста"
+
+#: inc/cpt-init.php:12
+msgid "Update city districts"
+msgstr "Оновити район міста"
+
+#: inc/cpt-init.php:13
+msgid "Add city district"
+msgstr "Додати район міста"
+
+#: inc/cpt-init.php:14
+msgid "New city districts"
+msgstr "Новий район міста"
+
+#: inc/cpt-init.php:17
+msgid "City districts for brands and places"
+msgstr "Райони міста для брендів та місць"
+
+#: inc/cpt-init.php:30 inc/cpt-init.php:40
+msgid "Announcements categories"
+msgstr "Категорії анонсів"
+
+#: inc/cpt-init.php:31
+msgid "Announcement category"
+msgstr "Категорія анонсу"
+
+#: inc/cpt-init.php:32
+msgid "Search announcement category"
+msgstr "Пошук категорії анонсів"
+
+#: inc/cpt-init.php:33
+msgid "All Announcements categories"
+msgstr "Усі категорії анонсів"
+
+#: inc/cpt-init.php:36
+msgid "Edit announcement category"
+msgstr "Редагування категорії анонсу"
+
+#: inc/cpt-init.php:37
+msgid "Update announcement category"
+msgstr "Оновити категорію анонсу"
+
+#: inc/cpt-init.php:38
+msgid "Add announcement category"
+msgstr "Додати категорію анонсу"
+
+#: inc/cpt-init.php:39
+msgid "New announcement category"
+msgstr "Нова категорія анонсу"
+
+#: inc/cpt-init.php:42 inc/cpt-init.php:67
+msgid "Categories for news"
+msgstr "Категорії новин"
+
+#: inc/cpt-init.php:55 inc/cpt-init.php:65
+msgid "News categories"
+msgstr "Категорії новин"
+
+#: inc/cpt-init.php:56
+msgid "News category"
+msgstr "Категорія новини"
+
+#: inc/cpt-init.php:57
+msgid "Search news category"
+msgstr "Пошук категорії новин"
+
+#: inc/cpt-init.php:58
+msgid "All news categories"
+msgstr "Усі категорії новин"
+
+#: inc/cpt-init.php:61
+msgid "Edit news category"
+msgstr "Редагування категорії новин"
+
+#: inc/cpt-init.php:62
+msgid "Update news category"
+msgstr "Оновити категорію новин"
+
+#: inc/cpt-init.php:63
+msgid "Add news category"
+msgstr "Додати категорію новин"
+
+#: inc/cpt-init.php:64
+msgid "New news category"
+msgstr "Нова категорія новин"
+
+#: inc/cpt-init.php:82 inc/template-methods.php:109
+#: inc/template-methods.php:133 inc/template-methods.php:161 search.php:91
+msgid "News/Announcements"
+msgstr "Новини/Анонси"
+
+#: inc/cpt-init.php:83
+msgid "News"
+msgstr "Новини"
+
+#: inc/cpt-init.php:84
+msgid "The News"
+msgstr "Новини"
+
+#: inc/cpt-init.php:85
+msgid "All news"
+msgstr "Усі новини"
+
+#: inc/cpt-init.php:86
+msgid "Add news"
+msgstr "Додати новину"
+
+#: inc/cpt-init.php:87
+msgid "Add new news"
+msgstr "Додати нову новину"
+
+#: inc/cpt-init.php:88 inc/cpt-init.php:145 inc/cpt-init.php:177
+#: template-parts/personal-info/brand-settings.php:26
+msgid "Edit"
+msgstr "Редагувати"
+
+#: inc/cpt-init.php:89
+msgid "Edit news"
+msgstr "Редагувати новину"
+
+#: inc/cpt-init.php:90
+msgid "New news"
+msgstr "Нова новина"
+
+#: inc/cpt-init.php:115 inc/cpt-init.php:123
+msgid "Brands categories"
+msgstr "Категорії Брендів"
+
+#: inc/cpt-init.php:116
+msgid "Brands category"
+msgstr "Категорія Бренду"
+
+#: inc/cpt-init.php:117
+msgid "Search brands category"
+msgstr "Знайти категорії Брендів"
+
+#: inc/cpt-init.php:118
+msgid "All brands categories"
+msgstr "Всі категорії брендів"
+
+#: inc/cpt-init.php:119
+msgid "Edit brands category"
+msgstr "Редагувати категорію брендів"
+
+#: inc/cpt-init.php:120
+msgid "Update brands category"
+msgstr "Оновити категорію брендів"
+
+#: inc/cpt-init.php:121
+msgid "Add brands category"
+msgstr "Додати категоріяю брендів"
+
+#: inc/cpt-init.php:122
+msgid "New brands category"
+msgstr "Нова категорія бренду"
+
+#: inc/cpt-init.php:125
+msgid "Categories for brands"
+msgstr "Категорії для Брендів"
+
+#: inc/cpt-init.php:139 inc/template-methods.php:139 search.php:58
+#: template-parts/blocks/map.php:62
+msgid "Brands/businesses"
+msgstr "Бренди/бізнеси"
+
+msgid "Brands/Businesses"
+msgstr "Бренди/Бізнеси"
+
+#: inc/cpt-init.php:140
+msgid "Brand/Business"
+msgstr "Бренд/Бізнес"
+
+#: inc/cpt-init.php:141
+msgid "Brands"
+msgstr "Бренди"
+
+#: inc/cpt-init.php:142
+msgid "All Brands/Businesses"
+msgstr "Усі Бренди/Бізнеси"
+
+#: inc/cpt-init.php:143
+msgid "Add Brand/Business"
+msgstr "Додати Бренд/Бізнес"
+
+#: inc/cpt-init.php:144
+msgid "Add new Brand/Business"
+msgstr "Додати новий Бренд/Бізнес"
+
+#: inc/cpt-init.php:146
+msgid "Edit Brand/Business"
+msgstr "Редагувати Бренд/Бізнес"
+
+#: inc/cpt-init.php:147
+msgid "New Brand/Business"
+msgstr "Новий Бренд/Бізнес"
+
+#: inc/cpt-init.php:171 inc/template-methods.php:122
+#: inc/template-methods.php:145 search.php:125 template-parts/blocks/map.php:63
+msgid "Interesting places"
+msgstr "Цікаві місця"
+
+#: inc/cpt-init.php:172
+msgid "Interesting place"
+msgstr "Цікаве місце"
+
+#: inc/cpt-init.php:173
+msgid "Places"
+msgstr "Місця"
+
+#: inc/cpt-init.php:174
+msgid "All Interesting places"
+msgstr "Усі Цікаві місця"
+
+#: inc/cpt-init.php:175
+msgid "Add Interesting place"
+msgstr "Додати Цікаве місце"
+
+#: inc/cpt-init.php:176
+msgid "Add new Interesting place"
+msgstr "Додати нове Цікаве місце"
+
+#: inc/cpt-init.php:178
+msgid "Edit Interesting place"
+msgstr "Редагувати Цікаве місце"
+
+#: inc/cpt-init.php:179
+msgid "New Interesting place"
+msgstr "Нове Цікаве місце"
+
+#: inc/cpt-init.php:202 inc/cpt-init.php:210
+msgid "Places tags"
+msgstr "Місця"
+
+#: inc/cpt-init.php:203
+msgid "Places tag"
+msgstr "Місце"
+
+#: inc/cpt-init.php:204
+msgid "Search places tag"
+msgstr "Пошук місць"
+
+#: inc/cpt-init.php:205
+msgid "All places tags"
+msgstr "Всі мітки місць"
+
+#: inc/cpt-init.php:206
+msgid "Edit places tag"
+msgstr "Редагувати місце"
+
+#: inc/cpt-init.php:207
+msgid "Update places tag"
+msgstr "Оновити місце"
+
+#: inc/cpt-init.php:208
+msgid "Add places tag"
+msgstr "Додати місце"
+
+#: inc/cpt-init.php:209
+msgid "New places tag"
+msgstr "Нові повідомлення"
+
+#: inc/cpt-init.php:212
+msgid "Tags for places"
+msgstr "Мітки для місць"
+
+#: inc/cpt-init.php:228 inc/cpt-init.php:229
+msgid "Ownership request"
+msgstr "Запит на право власності"
+
+#: inc/cpt-init.php:230
+msgid "Search ownership requests"
+msgstr "Знайти запити на право власності"
+
+#: inc/cpt-init.php:231
+msgid "All ownership requests"
+msgstr "Всі запити на право власності"
+
+#: inc/cpt-init.php:232
+msgid "Edit ownership request"
+msgstr "Редагувати запит на право власності"
+
+#: inc/cpt-init.php:233
+msgid "Update ownership request"
+msgstr "Оновити запит на право власності"
+
+#: inc/cpt-init.php:234
+msgid "Add ownership request"
+msgstr "Додати запит на право власності"
+
+#: inc/cpt-init.php:235
+msgid "New ownership request"
+msgstr "Новий запит на право власності"
+
+#: inc/cpt-init.php:236
+msgid "Ownerships"
+msgstr "Право власності"
+
+#: inc/cpt-post-status.php:6 inc/cpt-post-status.php:17
+#: inc/cpt-post-status.php:18
+msgctxt "admin"
+msgid "Deactivated"
+msgstr "Деактивонані"
+
+#: inc/cpt-post-status.php:11
+#, php-format
+msgid "Deactivated <span class=\"count\">(%s)</span>"
+msgid_plural "Deactivated <span class=\"count\">(%s)</span>"
+msgstr[0] "Деактивовано <span class=\"count\">(%s)</span>"
+msgstr[1] "Деактивовано <span class=\"count\">(%s)</span>"
+msgstr[2] "Деактивовано <span class=\"count\">(%s)</span>"
+
+#: inc/cpt-post-status.php:28 inc/cpt-post-status.php:38
+#: inc/cpt-post-status.php:39
+msgid "Approved"
+msgstr "Підтверджено"
+
+#: inc/cpt-post-status.php:33
+#, php-format
+msgid "Approved <span class=\"count\">(%s)</span>"
+msgid_plural "Approved <span class=\"count\">(%s)</span>"
+msgstr[0] "Підтверджено <span class=\"count\">(%s)</span>"
+msgstr[1] "Підтверджено <span class=\"count\">(%s)</span>"
+msgstr[2] "Підтверджено <span class=\"count\">(%s)</span>"
+
+#: inc/cpt-post-status.php:45 inc/cpt-post-status.php:55
+#: inc/cpt-post-status.php:56
+msgid "Rejected"
+msgstr "Відхилино"
+
+#: inc/cpt-post-status.php:50
+#, php-format
+msgid "Rejected <span class=\"count\">(%s)</span>"
+msgid_plural "Rejected <span class=\"count\">(%s)</span>"
+msgstr[0] "Відхилино <span class=\"count\">(%s)</span>"
+msgstr[1] "Відхилино <span class=\"count\">(%s)</span>"
+msgstr[2] "Відхилино <span class=\"count\">(%s)</span>"
+
+#: inc/init_styles_scripts.php:103
+msgid "Choose announcements"
+msgstr "Оберіть анонси"
+
+#: inc/init_styles_scripts.php:122
+msgid "Categories"
+msgstr "Категорії"
+
+#: inc/template-methods.php:241 inc/template-methods.php:250
+msgid "Previous page"
+msgstr "Попередня сторінка"
+
+#: inc/template-methods.php:266 inc/template-methods.php:276
+msgid "Next page"
+msgstr "Наступна сторінка"
+
+#: inc/theme-methods.php:418
+msgid "м."
+msgstr "м."
+
+#: inc/theme-methods.php:433
+#, php-format
+msgid "%s ago"
+msgstr "%s тому"
+
+#: inc/theme-methods.php:451 inc/theme-methods.php:453
+#: template-parts/blocks/heros/home-hero.php:45
+#: template-parts/brand/parts/object.php:84
+msgid "Monday"
+msgstr "Понеділок"
+
+#: inc/theme-methods.php:451 inc/theme-methods.php:455
+#: template-parts/blocks/heros/home-hero.php:44
+#: template-parts/brand/parts/object.php:105
+msgid "Sunday"
+msgstr "Неділя"
+
+#: inc/theme-methods.php:453 template-parts/blocks/heros/home-hero.php:49
+#: template-parts/brand/parts/object.php:98
+msgid "Friday"
+msgstr "П'ятниця"
+
+#: inc/theme-methods.php:455 template-parts/blocks/heros/home-hero.php:50
+#: template-parts/brand/parts/object.php:101
+msgid "Saturday"
+msgstr "Субота"
+
+#: page-templates/add-brand.php:18
+msgid "I want to add my brand/business"
+msgstr "Я хочу додати свій бренд/бізнес"
+
+#: page-templates/links.php:36 template-parts/single-items/item-brand.php:58
+msgid "Find out more"
+msgstr "Дізнатися більше"
+
+msgid "Learn more"
+msgstr "Дізнатися більше"
+
+#: page-templates/login.php:14
+msgid "Log in personal cabinet"
+msgstr "Вхід в особистий кабінет"
+
+#: page-templates/login.php:38 page-templates/registration.php:36
+msgid "Log in"
+msgstr "Увійти"
+
+#: page-templates/login.php:40 page-templates/registration.php:38
+msgid "or"
+msgstr "або"
+
+#: page-templates/login.php:60 page-templates/registration.php:59
+#: page-templates/registration.php:193
+msgid "Sign up"
+msgstr "Зареєструватися"
+
+#: page-templates/login.php:63 page-templates/registration.php:68
+#: page-templates/restore-access.php:130
+#: template-parts/brand/add-registered.php:157
+#: template-parts/brand/ownership.php:116
+#: template-parts/personal-info/account-editing.php:14
+msgid "Email"
+msgstr "Електронна пошта"
+
+#: page-templates/login.php:65 page-templates/restore-access.php:132
+msgid "mail@example.com"
+msgstr "mail@example.com"
+
+#: page-templates/login.php:66 page-templates/login.php:67
+#: page-templates/registration.php:77 page-templates/registration.php:78
+#: page-templates/restore-access.php:133 page-templates/restore-access.php:134
+#: template-parts/personal-info/account-editing.php:5
+msgid "For example mail@example.com"
+msgstr "Наприклад, mail@example.com"
+
+#: page-templates/login.php:70
+msgid "Invalid email, please try again"
+msgstr "Невірно вказана електронна пошта, будь ласка, спробуйте ще раз"
+
+#: page-templates/login.php:72 page-templates/registration.php:93
+#: page-templates/restore-access.php:30
+#: template-parts/personal-info/account-editing.php:32
+msgid "Password"
+msgstr "Пароль"
+
+#: page-templates/login.php:76 page-templates/login.php:77
+#: page-templates/login.php:78
+msgid "Enter password"
+msgstr "Введіть пароль"
+
+#: page-templates/login.php:113
+msgid "Incorrect password, please try again"
+msgstr "Невірний пароль, будь ласка, спробуйте ще раз"
+
+#: page-templates/login.php:120
+msgid "Remember me"
+msgstr "Запам’ятати мене"
+
+#: page-templates/login.php:125
+msgid "Log in to my personal cabinet"
+msgstr "Увійти до особистого кабінету"
+
+#: page-templates/login.php:136
+msgid "Forgot your password?"
+msgstr "Забули пароль від свого кабінету?"
+
+#: page-templates/login.php:138
+msgid "Restore password"
+msgstr "Відновить дані"
+
+#: page-templates/registration-confirmation.php:26
+#: page-templates/restore-access.php:111
+#: template-parts/modals/add_brand_confirm.php:39
+#: template-parts/modals/brand-ownership-send.php:30
+msgid "Go to account"
+msgstr "Перейти до кабінету"
+
+#: page-templates/registration.php:13
+msgid "Sign up for personal account"
+msgstr "Зареєструватись до особистого кабінету"
+
+#: page-templates/registration.php:62
+#: template-parts/personal-info/account-editing.php:11
+msgid "Surname and first name"
+msgstr "Прізвище та ім’я"
+
+#: page-templates/registration.php:64
+#: template-parts/personal-info/account-editing.php:6
+msgid "For example: Ivan Franko"
+msgstr "Наприклад: Іван Франко"
+
+#: page-templates/registration.php:66
+msgid "Name field can't be empty"
+msgstr "Поле ім'я неможна залишати порожнім"
+
+#: page-templates/registration.php:87
+#: template-parts/brand/add-registered.php:164
+#: template-parts/brand/add-registered.php:409
+#: template-parts/brand/ownership.php:122
+#: template-parts/brand/ownership.php:154
+#: template-parts/personal-info/account-editing.php:20
+msgid "Invalid email"
+msgstr "Невірна електронна пошта"
+
+#: page-templates/registration.php:90
+#: template-parts/personal-info/account-editing.php:23
+msgid "This email already in use"
+msgstr "Ця пошта вже використовується"
+
+#: page-templates/registration.php:97 page-templates/restore-access.php:35
+msgid "Think up a new password"
+msgstr "Придумайте новий пароль"
+
+#: page-templates/registration.php:98 page-templates/registration.php:99
+#: page-templates/restore-access.php:36 page-templates/restore-access.php:37
+msgid "Create a new password for your personal account"
+msgstr "Придумайте свій пароль від особистого кабінету"
+
+#: page-templates/registration.php:133 page-templates/restore-access.php:71
+msgid "Please, think up a new password"
+msgstr "Будь ласка, придумайте новий пароль"
+
+#: page-templates/registration.php:136
+msgid "Confirm password"
+msgstr "Підтвердити пароль"
+
+#: page-templates/registration.php:140
+msgid "Enter your password again"
+msgstr "Введіть ще раз свій пароль"
+
+#: page-templates/registration.php:174
+msgid "Please, fill new password again"
+msgstr "Будь ласка, введіть новий пароль ще раз"
+
+#: page-templates/registration.php:177
+msgid "Password didn't match"
+msgstr "Паролі не співпадають"
+
+#: page-templates/registration.php:184
+msgid "I confirm that I have read the policy"
+msgstr "Я підтверджую, що ознайомився з Правилами"
+
+#: page-templates/registration.php:186
+msgid "You must agree with usage policy"
+msgstr "Ви маєте погодитись з політикою використання"
+
+#: page-templates/registration.php:192
+msgid "Sign up for a personal account"
+msgstr "Зареєструватись до особистого кабінету"
+
+#: page-templates/restore-access.php:15 page-templates/restore-access.php:104
+msgid "Password restoring"
+msgstr "Відновлення паролю"
+
+#: page-templates/restore-access.php:18
+msgid "Code from phone / email"
+msgstr "Код з телефону / пошти"
+
+#: page-templates/restore-access.php:21 page-templates/restore-access.php:22
+#: page-templates/restore-access.php:23
+msgid "Enter the code sent to you here"
+msgstr "Введіть відправленний вам код сюди"
+
+#: page-templates/restore-access.php:25
+msgid "Please enter the received code"
+msgstr "Будь ласка, введіть отриманий код"
+
+#: page-templates/restore-access.php:77 page-templates/restore-access.php:149
+msgid "Start the password recovery procedure"
+msgstr "Почати процедуру відновлення паролю"
+
+#: page-templates/restore-access.php:78 page-templates/restore-access.php:150
+msgid "Start the recovery procedure"
+msgstr "Почати процедуру відновлення"
+
+#: page-templates/restore-access.php:93 page-templates/restore-access.php:165
+msgid "Found your password?"
+msgstr "Знайшли свій пароль?"
+
+#: page-templates/restore-access.php:95 page-templates/restore-access.php:167
+msgid "Back to log in"
+msgstr "Повернутись до входу"
+
+#: page-templates/restore-access.php:106
+msgid "Password reset, write it down or save it in a safe place"
+msgstr "Пароль відновлений, запишіть або збережіть його у захищенному місці"
+
+#: page-templates/restore-access.php:108
+msgid "Now you can go to your personal account."
+msgstr "Тепер ви можете зайти до свого особистого кабінету."
+
+#: page-templates/restore-access.php:126
+msgid "Lost yours password?"
+msgstr "Забули свій пароль?"
+
+#: page-templates/restore-access.php:127
+msgid "Enter email associated with your personal account and we sent email with code for restoring."
+msgstr "Введіть електронну пошту, що прив’язана до особистого кабінету і ми відправимо вам електронний лист з кодом відновлення."
+
+#: page-templates/restore-access.php:144
+msgid "Invalid email or username, please try again"
+msgstr "Невірно вказана електронна пошта, будь ласка, спробуйте ще раз"
+
+#: search.php:17
+msgid "Search results"
+msgstr "Результати пошуку"
+
+#: search.php:60 search.php:93 search.php:127
+msgid "See all results"
+msgstr "Переглянути усі результати"
+
+#: search.php:154 search.php:233
+msgid "No search results found"
+msgstr "Результатів пошуку не знайдено"
+
+#: search.php:155 search.php:234
+msgid "So far we have not found anything on your request, please try again"
+msgstr "Наразі ми не знайшли нічого по вашому запиту, спробуйте ще раз"
+
+#: search.php:206
+msgid "businesses/brands"
+msgstr "бізнесам/брендам"
+
+#: search.php:209
+msgid "news/announcements"
+msgstr "новинам/анонсам"
+
+#: search.php:212
+msgid "interesting places"
+msgstr "цікавим місцям"
+
+#: search.php:215
+msgid "Search results by "
+msgstr "Результатів пошуку по "
+
+#: single-brands.php:106
+msgid "Is that your brand/business?"
+msgstr "Це ваш бренд/бізнес?"
+
+#: single-brands.php:108
+msgid "Don't worry, it may have been added to the system automatically. The good news is that you still own it! Click the button below to complete the ownership verification process."
+msgstr "Не переймайтесь, можливо він був доданий до системи автоматично. Гарна новина - він все ще належить вам! Натисніть кнопку нижче, щоб пройти процедуру підтвердження власності."
+
+#: single-brands.php:112
+msgid "I am the owner of this brand/business"
+msgstr "Я власник цього бренду/бізнесу"
+
+#: single-brands.php:157
+msgid "Opening days and hours"
+msgstr "Години та дні роботи"
+
+#: single-brands.php:225 template-parts/brand/add-registered.php:147
+#: template-parts/brand/ownership.php:105
+msgid "Website"
+msgstr "Сайт"
+
+#: single-brands.php:259 single-brands.php:280
+msgid "Go to the site"
+msgstr "Перейти на сайт"
+
+#: single-brands.php:298
+msgid "Go to the channel"
+msgstr "Перейти на канал"
+
+#: single-brands.php:313 single-brands.php:328 single-brands.php:343
+msgid "Go to chat"
+msgstr "Перейти у чат"
+
+#: single-brands.php:356
+msgid "Emails"
+msgstr "Пошти"
+
+#: single-brands.php:365
+msgid "Mail"
+msgstr "Пошта"
+
+#: single-brands.php:401 template-parts/brand/add-registered.php:134
+#: template-parts/brand/ownership.php:91
+#: template-parts/brand/parts/object.php:51
+#: template-parts/personal-info/account-editing.php:25
+msgid "Phone number"
+msgstr "Телефон"
+
+#: single.php:23
+msgid "Previous:"
+msgstr "Попередній:"
+
+#: single.php:24
+msgid "Next:"
+msgstr "Наступний:"
+
+#: template-parts/blocks/heros/home-hero.php:28
+msgid "january"
+msgstr "січня"
+
+#: template-parts/blocks/heros/home-hero.php:29
+msgid "february"
+msgstr "лютого"
+
+#: template-parts/blocks/heros/home-hero.php:30
+msgid "march"
+msgstr "березня"
+
+#: template-parts/blocks/heros/home-hero.php:31
+msgid "april"
+msgstr "квітня"
+
+#: template-parts/blocks/heros/home-hero.php:32
+msgid "may"
+msgstr "травня"
+
+#: template-parts/blocks/heros/home-hero.php:33
+msgid "june"
+msgstr "червня"
+
+#: template-parts/blocks/heros/home-hero.php:34
+msgid "july"
+msgstr "липня"
+
+#: template-parts/blocks/heros/home-hero.php:35
+msgid "august"
+msgstr "серпня"
+
+#: template-parts/blocks/heros/home-hero.php:36
+msgid "september"
+msgstr "вересня"
+
+#: template-parts/blocks/heros/home-hero.php:37
+msgid "october"
+msgstr "жовтня"
+
+#: template-parts/blocks/heros/home-hero.php:38
+msgid "november"
+msgstr "листопада"
+
+#: template-parts/blocks/heros/home-hero.php:39
+msgid "december"
+msgstr "грудня"
+
+#: template-parts/blocks/heros/home-hero.php:46
+#: template-parts/brand/parts/object.php:87
+msgid "Tuesday"
+msgstr "Вівторок"
+
+#: template-parts/blocks/heros/home-hero.php:47
+#: template-parts/brand/parts/object.php:90
+msgid "Wednesday"
+msgstr "Середа"
+
+#: template-parts/blocks/heros/home-hero.php:48
+#: template-parts/brand/parts/object.php:94
+msgid "Thursday"
+msgstr "Четвер"
+
+#: template-parts/blocks/map.php:20
+msgid "Results on map"
+msgstr "Результати на мапі"
+
+#: template-parts/blocks/map.php:22
+msgid "Brands/businesses on map"
+msgstr "Бренди/бізнеси на мапі"
+
+#: template-parts/blocks/map.php:31
+msgid "Map navigation"
+msgstr "Навігація по карті"
+
+#: template-parts/blocks/map.php:50
+msgid "Enter a query"
+msgstr "Введіть запит"
+
+#: template-parts/brand/add-registered.php:18
+#: template-parts/brand/add-unregistered.php:14
+msgid "Below you can fill in the information you need to enter a brand/business on the portal."
+msgstr "Нижче ви зможете заповнити інформацію, яка потрібна для внесення бренду/бізнесу на портал."
+
+#: template-parts/brand/add-registered.php:20
+msgid "You are a registered user, so you can then edit brand/business information in your personal account."
+msgstr "Ви є зареєстрованним користувачем, тому потім зможете відредагувати інформацію щодо бренду/бізнесу у своєму особистому кабінеті."
+
+#: template-parts/brand/add-registered.php:26
+#: template-parts/brand/ownership.php:25
+msgid "Your EDPNOU code"
+msgstr "Ваш код ЄДРПОУ"
+
+#: template-parts/brand/add-registered.php:28
+#: template-parts/brand/add-registered.php:29
+#: template-parts/brand/add-registered.php:30
+#: template-parts/brand/add-registered.php:31
+#: template-parts/brand/ownership.php:27 template-parts/brand/ownership.php:28
+#: template-parts/brand/ownership.php:29 template-parts/brand/ownership.php:30
+msgid "For example: 12345678"
+msgstr "Наприклад: 12345678"
+
+#: template-parts/brand/add-registered.php:33
+#: template-parts/brand/add-registered.php:42
+#: template-parts/brand/add-registered.php:52
+#: template-parts/brand/add-registered.php:63
+#: template-parts/brand/add-registered.php:90
+#: template-parts/brand/add-registered.php:103
+#: template-parts/brand/add-registered.php:115
+#: template-parts/brand/add-registered.php:129
+#: template-parts/brand/add-registered.php:386
+#: template-parts/brand/add-registered.php:396
+#: template-parts/brand/add-unregistered.php:31
+#: template-parts/brand/add-unregistered.php:40
+#: template-parts/brand/add-unregistered.php:49
+#: template-parts/brand/ownership.php:33 template-parts/brand/ownership.php:43
+#: template-parts/brand/ownership.php:52 template-parts/brand/ownership.php:61
+#: template-parts/brand/ownership.php:70 template-parts/brand/ownership.php:84
+#: template-parts/brand/ownership.php:133
+#: template-parts/brand/ownership.php:142
+#: template-parts/brand/parts/address.php:10
+#: template-parts/brand/parts/object.php:18
+#: template-parts/brand/parts/object.php:27
+#: template-parts/brand/parts/object.php:34
+#: template-parts/brand/parts/object.php:43
+msgid "Please fill this information"
+msgstr "Будь ласка, заповніть цю інформацію"
+
+#: template-parts/brand/add-registered.php:35
+#: template-parts/brand/ownership.php:35
+msgid "Full name of the business entity"
+msgstr "Повна назва суб'єкта господарювання"
+
+#: template-parts/brand/add-registered.php:37
+#: template-parts/brand/add-registered.php:38
+#: template-parts/brand/add-registered.php:40
+#: template-parts/brand/add-unregistered.php:27
+#: template-parts/brand/ownership.php:37 template-parts/brand/ownership.php:38
+#: template-parts/brand/ownership.php:40
+msgid "Boutique"
+msgstr "Крамничка"
+
+#: template-parts/brand/add-registered.php:39
+#: template-parts/brand/add-unregistered.php:28
+#: template-parts/brand/add-unregistered.php:29
+#: template-parts/brand/ownership.php:39
+msgid "For example: Shop sewing workshop “Boutique”"
+msgstr "Наприклад: Майстерня пошиття одягу “Крамничка”"
+
+#: template-parts/brand/add-registered.php:44
+#: template-parts/brand/ownership.php:45
+msgid "Legal address of the brand/business"
+msgstr "Юридична адреса бренду/бізнесу"
+
+#: template-parts/brand/add-registered.php:46
+#: template-parts/brand/add-registered.php:47
+#: template-parts/brand/add-registered.php:49
+#: template-parts/brand/add-registered.php:57
+#: template-parts/brand/add-registered.php:58
+#: template-parts/brand/add-registered.php:60
+#: template-parts/brand/add-registered.php:75
+#: template-parts/brand/add-registered.php:76
+#: template-parts/brand/add-registered.php:78
+#: template-parts/brand/add-unregistered.php:36
+#: template-parts/brand/ownership.php:47 template-parts/brand/ownership.php:48
+#: template-parts/brand/ownership.php:50 template-parts/brand/ownership.php:56
+#: template-parts/brand/ownership.php:57 template-parts/brand/ownership.php:59
+#: template-parts/brand/parts/address.php:5
+#: template-parts/brand/parts/address.php:6
+#: template-parts/brand/parts/address.php:8
+#: template-parts/brand/parts/object.php:23
+msgid "Kropyvnytskyi, street Name 123"
+msgstr "м. Кропивницький, вул. Назва 123"
+
+#: template-parts/brand/add-registered.php:48
+#: template-parts/brand/add-registered.php:59
+#: template-parts/brand/add-registered.php:77
+#: template-parts/brand/add-unregistered.php:37
+#: template-parts/brand/add-unregistered.php:38
+#: template-parts/brand/ownership.php:49 template-parts/brand/ownership.php:58
+#: template-parts/brand/parts/address.php:7
+#: template-parts/brand/parts/object.php:24
+msgid "For example: Kropyvnytskyi, street Name 123"
+msgstr "Наприклад: м. Кропивницький, вул. Назва 123"
+
+#: template-parts/brand/add-registered.php:54
+#: template-parts/brand/add-registered.php:73
+#: template-parts/brand/ownership.php:54
+#: template-parts/brand/parts/address.php:2
+msgid "Actual brand/business address"
+msgstr "Фактична адреса бренду/бізнесу"
+
+#: template-parts/brand/add-registered.php:65
+#: template-parts/brand/ownership.php:63
+msgid "Add another address"
+msgstr "Додати ще одну адресу"
+
+#: template-parts/brand/add-registered.php:85
+#: template-parts/brand/add-unregistered.php:44
+#: template-parts/brand/ownership.php:65
+msgid "Short description or comment on the brand/business (max. 3000 characters)"
+msgstr "Короткий опис або коментар до бренду/бізнесу (не більше 3000 символів)"
+
+#: template-parts/brand/add-registered.php:88
+#: template-parts/brand/add-unregistered.php:47
+#: template-parts/brand/ownership.php:68
+msgid "For example: some example of information to fill"
+msgstr "Наприклад: деякий приклад інформації для заповнення"
+
+#: template-parts/brand/add-registered.php:97
+#: template-parts/brand/ownership.php:78
+msgid "Category"
+msgstr "Категорія"
+
+#: template-parts/brand/add-registered.php:108
+#: template-parts/brand/parts/object.php:31
+msgid "Hours of work"
+msgstr "Години роботи"
+
+#: template-parts/brand/add-registered.php:122
+#: template-parts/brand/parts/object.php:40
+msgid "Working days"
+msgstr "Дні роботи"
+
+#: template-parts/brand/add-registered.php:138
+#: template-parts/brand/add-registered.php:417
+#: template-parts/brand/add-unregistered.php:57
+#: template-parts/brand/add-unregistered.php:67
+#: template-parts/brand/ownership.php:95 template-parts/brand/ownership.php:162
+#: template-parts/brand/parts/object.php:54
+#: template-parts/personal-info/account-editing.php:4
+msgid "For example +380501234567"
+msgstr "Наприклад: +380501234567"
+
+#: template-parts/brand/add-registered.php:141
+#: template-parts/brand/add-registered.php:420
+#: template-parts/brand/add-unregistered.php:60
+#: template-parts/brand/add-unregistered.php:70
+#: template-parts/brand/ownership.php:97 template-parts/brand/ownership.php:164
+#: template-parts/brand/parts/object.php:57
+#: template-parts/personal-info/account-editing.php:30
+msgid "Invalid phone number"
+msgstr "Невірний формат номеру телефону"
+
+#: template-parts/brand/add-registered.php:150
+#: template-parts/brand/ownership.php:108
+msgid "For example: www.somesite.com"
+msgstr "Наприклад: www.somesite.com"
+
+#: template-parts/brand/add-registered.php:153
+#: template-parts/brand/add-registered.php:178
+#: template-parts/brand/add-registered.php:190
+#: template-parts/brand/add-registered.php:205
+#: template-parts/brand/add-registered.php:217
+#: template-parts/brand/add-registered.php:231
+#: template-parts/brand/add-registered.php:242
+#: template-parts/brand/add-registered.php:353
+#: template-parts/brand/ownership.php:110
+msgid "Invalid link format"
+msgstr "Невірний формат посилання"
+
+#: template-parts/brand/add-registered.php:161
+#: template-parts/brand/add-registered.php:406
+#: template-parts/brand/ownership.php:120
+#: template-parts/brand/ownership.php:152
+msgid "For example: support@email.com"
+msgstr "Наприклад: support@email.com"
+
+#: template-parts/brand/add-registered.php:173
+#: template-parts/brand/add-registered.php:175
+#: template-parts/brand/add-registered.php:200
+#: template-parts/brand/add-registered.php:202
+msgid "Address of your page at"
+msgstr "Адреса вашої сторінки на"
+
+#: template-parts/brand/add-registered.php:174
+#: template-parts/brand/add-registered.php:186
+#: template-parts/brand/add-registered.php:201
+#: template-parts/brand/add-registered.php:213
+#: template-parts/brand/add-registered.php:227
+#: template-parts/brand/add-registered.php:239
+msgid "Your"
+msgstr "Ваш"
+
+#: template-parts/brand/add-registered.php:185
+#: template-parts/brand/add-registered.php:187
+#: template-parts/brand/add-registered.php:212
+#: template-parts/brand/add-registered.php:214
+#: template-parts/brand/add-registered.php:226
+#: template-parts/brand/add-registered.php:228
+#: template-parts/brand/add-registered.php:238
+#: template-parts/brand/add-registered.php:240
+msgid "Address of your page in"
+msgstr "Адреса вашої сторінки в"
+
+#: template-parts/brand/add-registered.php:246
+msgid "Brand/business logo and photo (minimum 3, maximum 10)"
+msgstr "Логотип та фото бренду/бізнесу (мінімум 3, максимум 10)"
+
+#: template-parts/brand/add-registered.php:262
+msgid "Add a photo or logo"
+msgstr "Додати фотографію чи логотип"
+
+#: template-parts/brand/add-registered.php:264
+msgid "File formats: .jpg, .jpeg, .png"
+msgstr "Формати файлу: .jpg, .jpeg, .png"
+
+#: template-parts/brand/add-registered.php:265
+msgid "Drag the photo here, or click the button"
+msgstr "Перетягніть фотографію сюди, або натисніть кнопку"
+
+#: template-parts/brand/add-registered.php:269
+msgid "Upload"
+msgstr "Завантажити"
+
+#: template-parts/brand/add-registered.php:319
+msgid "File to large. Please select file smaller than 5mb"
+msgstr "Файл завеликий. Будь лска, оберіть файл менше ніж 5mb"
+
+#: template-parts/brand/add-registered.php:322
+msgid "You must provide at least 3 images"
+msgstr "Потрібно надати щонайменше 3 зображення"
+
+#: template-parts/brand/add-registered.php:325
+msgid "The maximum number of images is 10"
+msgstr "Максимальна кількість файлів - 10"
+
+#: template-parts/brand/add-registered.php:327
+#: template-parts/brand/parts/object.php:61
+msgid "Special notes"
+msgstr "Особливі примітки"
+
+#: template-parts/brand/add-registered.php:340
+msgid "You can order online"
+msgstr "Можна замовляти онлайн"
+
+#: template-parts/brand/add-registered.php:345
+msgid "The address of the page to order online"
+msgstr "Адреса сторінки для замовлення онлайн"
+
+#: template-parts/brand/add-registered.php:348
+#: template-parts/brand/add-registered.php:349
+msgid "The address of your page is from order to order"
+msgstr "Сторінка з якої можна замовляти онлайн"
+
+#: template-parts/brand/add-registered.php:350
+msgid "The address of your page from which you can order online"
+msgstr "Адреса вашої сторінки з якої можна замовляти онлайн"
+
+#: template-parts/brand/add-registered.php:357
+msgid "Brand/business objects"
+msgstr "Об'єкти бренду/бізнесу"
+
+#: template-parts/brand/add-registered.php:359
+msgid "Add another object"
+msgstr "Додати ще один об'єкт"
+
+#: template-parts/brand/add-registered.php:380
+#: template-parts/brand/ownership.php:128
+msgid "Surname of the contact person"
+msgstr "Прізвище контактної особи"
+
+#: template-parts/brand/add-registered.php:383
+#: template-parts/brand/ownership.php:131
+msgid "For example: Franco"
+msgstr "Наприклад: Франко"
+
+#: template-parts/brand/add-registered.php:390
+#: template-parts/brand/ownership.php:137
+msgid "Name of contact person"
+msgstr "Ім’я контактної особи"
+
+#: template-parts/brand/add-registered.php:393
+#: template-parts/brand/ownership.php:140
+msgid "For example: Ivan"
+msgstr "Наприклад: Іван"
+
+#: template-parts/brand/add-registered.php:402
+#: template-parts/brand/ownership.php:148
+msgid "Contact person's e-mail"
+msgstr "Електронна пошта контактної особи"
+
+#: template-parts/brand/add-registered.php:413
+#: template-parts/brand/ownership.php:158
+msgid "Contact person's phone number"
+msgstr "Телефон контактної особи"
+
+#: template-parts/brand/add-registered.php:428
+#: template-parts/brand/add-unregistered.php:78
+#: template-parts/brand/ownership.php:171
+msgid "I agree to the processing of data"
+msgstr "Даю згоду на обробку даних"
+
+#: template-parts/brand/add-registered.php:430
+#: template-parts/brand/add-unregistered.php:80
+#: template-parts/brand/ownership.php:173
+msgid "You must allow data processing"
+msgstr "Ви маєте погодитись з обробкою данних"
+
+#: template-parts/brand/add-registered.php:436
+#: template-parts/brand/add-unregistered.php:86
+#: template-parts/brand/ownership.php:180
+msgid "Submit brand/business"
+msgstr "Відправити бренд/бізнес"
+
+#: template-parts/brand/add-unregistered.php:16
+msgid "You are not a registered user, so you cannot edit the information provided after adding it."
+msgstr "Ви є не зaреєстрованим користувачем, тому не зможете потім редагувати додану інформацію після додавання."
+
+#: template-parts/brand/add-unregistered.php:18
+msgid "Are you a brand/business owner? Click the button above to go to the personal account registration."
+msgstr "Ви є власником бренду/бізнесу? Натисніть кнопку вище, щоб перейти до реєстрації особистого кабінету."
+
+#: template-parts/brand/add-unregistered.php:24
+msgid "Full official name of the brand/business"
+msgstr "Повна офіційна назва бренду/бізнесу"
+
+#: template-parts/brand/add-unregistered.php:33
+msgid "Brand/business address"
+msgstr "Адреса бренду/бізнесу"
+
+#: template-parts/brand/add-unregistered.php:54
+msgid "Brand/business phone"
+msgstr "Телефон бренду/бізнесу"
+
+#: template-parts/brand/add-unregistered.php:64
+msgid "Your phone"
+msgstr "Ваш телефон"
+
+#: template-parts/brand/modals/categories.php:12
+msgid "Select the desired brand or business category from the list"
+msgstr "Оберіть потрібну категорію або категорії бренду/бізнесу із списку"
+
+#: template-parts/brand/modals/categories.php:30
+msgid "Confirm categories"
+msgstr "Підтвердити категорії"
+
+#: template-parts/brand/modals/timepicker.php:3
+msgid "Select the time you want"
+msgstr "Оберіть потрібний час"
+
+#: template-parts/brand/modals/timepicker.php:12
+msgid "From:"
+msgstr "З:"
+
+#: template-parts/brand/modals/timepicker.php:14
+msgid "To:"
+msgstr "По:"
+
+#: template-parts/brand/modals/timepicker.php:18
+#: template-parts/brand/parts/object.php:109
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#: template-parts/brand/ownership.php:17
+msgid "Below you can fill in the information and add some clarifications needed to verify the ownership of this brand / business by the administration."
+msgstr "Нижче ви зможете заповнити інформацію та додати деякі уточнення, що потрібні для перевірки адміністрацією власності вами даного бренду/бізнесу."
+
+#: template-parts/brand/ownership.php:19
+msgid "After confirmation, the brand / business will appear in your personal account and will be assigned to you."
+msgstr "Після підтвердження бренд/бізнес з’явиться у вашому особистому кабінеті і буде закріплений за вами."
+
+#: template-parts/brand/parts/object.php:7
+msgid "Object #"
+msgstr "Об'єкт №"
+
+#: template-parts/brand/parts/object.php:8
+msgid "Delete object"
+msgstr "Видалити об'єкт"
+
+#: template-parts/brand/parts/object.php:10
+msgid "Name of the object of network trade (restaurants, pharmacies, etc.)"
+msgstr "Назва об'єкту мережевої торгівлі (ресторанного господарства, аптечних закладів тощо)"
+
+#: template-parts/brand/parts/object.php:14
+msgid "“Workshop”"
+msgstr "“Майстерня”"
+
+#: template-parts/brand/parts/object.php:15
+msgid "For example: Head Office “Workshop”"
+msgstr "Наприклад: Головний офіс “Майстерня”"
+
+#: template-parts/brand/parts/object.php:20
+msgid "Location of the object"
+msgstr "Місце розташування об’єкту"
+
+#: template-parts/brand/parts/object.php:72
+msgid "Select your days of the week:"
+msgstr "Оберіть свої дні тижня:"
+
+#: template-parts/modals/add_brand_confirm.php:9
+#: template-parts/modals/brand-ownership-send.php:9
+msgid "Brand/business submitted"
+msgstr "Бренд/бізнес відправлено"
+
+#: template-parts/modals/add_brand_confirm.php:11
+#: template-parts/modals/brand-ownership-send.php:11
+msgid "Thank you for your contribution to the portal!"
+msgstr "Дякуємо за ваш внесок в розвиток порталу!"
+
+#: template-parts/modals/add_brand_confirm.php:13
+msgid "Your request to add a brand/business"
+msgstr "Ваш запит на додавання бренду/бізнесу"
+
+#: template-parts/modals/add_brand_confirm.php:17
+#: template-parts/modals/brand-ownership-send.php:15
+msgid "will be reviewed by an administrator shortly. You can check the availability of the business/brand in personal account or on the"
+msgstr "буде розглянутий адміністратором найближчим часом. Ви зможете перевірити наявність бізнесу/бренду у Особистому кабінеті та на сторінці"
+
+#: template-parts/modals/add_brand_confirm.php:19
+msgid "will be reviewed by an administrator shortly. You can check the availability of the business/brand on the"
+msgstr "буде розглянутий адміністратором найближчим часом. Ви зможете перевірити наявність бізнесу/бренду на сторінці"
+
+#: template-parts/modals/add_brand_confirm.php:22
+msgid "Catalog page."
+msgstr "Каталогу."
+
+#: template-parts/modals/add_brand_confirm.php:49
+msgid "Add one more brand/business"
+msgstr "Додати ще бренд/бізнес"
+
+#: template-parts/modals/alert/activate.php:2
+msgid "Do you really want to activate the brand/business?"
+msgstr "Ви насправді хочете активувати бренд/бізнес?"
+
+#: template-parts/modals/alert/activate.php:3
+msgid "After activating the brand/business, it will be available in the brand/business directory, search engine and on the map. The statistics of this brand/business will also start to be updated, and you will also be able to edit the information."
+msgstr "Після активування бренду/бізнесу він буде доступний у каталозі брендів/бізнесів, системі пошуку та на карті. Статистика цього бренду/бізнесу також почне оновлюватись, і ви також зможете редагувати інформацію."
+
+#: template-parts/modals/alert/activate.php:5
+msgid "Cancel activation"
+msgstr "Скасувати активацію"
+
+#: template-parts/modals/alert/activate.php:7
+msgid "Activate brand/business"
+msgstr "Активувати бренд/бізнес"
+
+#: template-parts/modals/alert/deactivate.php:5
+msgid "Do you really want to deactivate the brand/business?"
+msgstr "Ви насправді хочете деактивувати бренд/бізнес?"
+
+#: template-parts/modals/alert/deactivate.php:6
+msgid "Once a brand/business is deactivated, it will not be available in the brand/business directory, search engine, or map. The statistics for this brand/business will also not be updated, but you will be able to edit the information."
+msgstr "Після деактивування бренду/бізнесу він буде недоступний у каталозі брендів/бізнесів, системі пошуку та на карті. Статистика цього бренду/бізнесу також не буде оновлюватись, проте ви зможете редагувати інформацію."
+
+#: template-parts/modals/alert/deactivate.php:8
+msgid "Cancel deactivation"
+msgstr "Відмінити деактивування"
+
+#: template-parts/modals/alert/deactivate.php:10
+msgid "Deactivate brand/business"
+msgstr "Деактивувати бренд/бізнес"
+
+#: template-parts/modals/alert/delete.php:2
+msgid "Do you really want to remove the brand/business?"
+msgstr "Ви насправді хочете видалити бренд/бізнес?"
+
+#: template-parts/modals/alert/delete.php:3
+msgid "After deleting a brand/business, it will not be available in the brand/business directory, search engine and on the map and in the personal account. The statistics for this brand/business will also be deleted and you will not be able to edit the information."
+msgstr "Після видалення бренду/бізнесу він буде недоступний у каталозі брендів/бізнесів, системі пошуку та на карті та у особистому кабінеті. Статистика цього бренду/бізнесу також буде видалена, і ви не зможете редагувати інформацію."
+
+#: template-parts/modals/alert/delete.php:5
+msgid "Cancel deleting"
+msgstr "Відмінити видалення"
+
+#: template-parts/modals/alert/delete.php:7
+msgid "Delete brand/business"
+msgstr "Видалити бренд/бізнес"
+
+#: template-parts/modals/alert/logout.php:2
+msgid "Do you really want to leave your personal account?"
+msgstr "Ви насправді хочете вийти з особистого кабінету?"
+
+#: template-parts/modals/alert/logout.php:3
+msgid "After leaving the personal account, you will need to log in again to re-add your own brands / businesses, edit information and view brand / business statistics."
+msgstr "Після виходу з особистого кабінету вам потрібно буде зайти знову, для того щоб знову додавати власні бренди/бізнеси, регадувати інформацію та переглядати статистику брендів/бізнесів."
+
+#: template-parts/modals/alert/logout.php:5
+msgid "Cancel sign out"
+msgstr "Відмінити вихід з кабінету"
+
+#: template-parts/modals/alert/logout.php:7
+msgid "Sign out from personal account"
+msgstr "Вийти з особистого кабінету"
+
+#: template-parts/modals/alert/reload.php:3
+msgid "Oops, an error occurred!"
+msgstr "Упс, сталась помилка!"
+
+#: template-parts/modals/alert/reload.php:5
+msgid "Please reload the page and try again"
+msgstr "Будь ласка, перезавантажте сторінку та спробуйте ще раз"
+
+#: template-parts/modals/alert/reload.php:8
+msgid "Reload"
+msgstr "Перезавантажити"
+
+#: template-parts/modals/brand-ownership-send.php:13
+msgid "Your request for brand/business ownership"
+msgstr "Ваш запит на право власності бренду/бізнесу"
+
+#: template-parts/modals/files-uploading.php:22
+msgid "Please, wait"
+msgstr ""
+
+#: template-parts/pagination-news.php:20
+msgid "Previous news"
+msgstr "Попередня новина"
+
+#: template-parts/pagination-news.php:32
+msgid "Next news"
+msgstr "Наступна новина"
+
+#: template-parts/personal-info/account-editing.php:36
+msgid "New password"
+msgstr "Новий пароль"
+
+#: template-parts/personal-info/account-editing.php:37
+msgid "New password for account"
+msgstr "Новий пароль від особистого кабінету"
+
+#: template-parts/personal-info/account-editing.php:72
+msgid "Approve new data"
+msgstr "Підтвердити нові дані"
+
+#: template-parts/personal-info/brand-settings.php:36
+msgid "Activate"
+msgstr "Активувати"
+
+#: template-parts/personal-info/brand-settings.php:36
+msgid "Deactivate"
+msgstr "Деактивувати"
+
+#: template-parts/personal-info/brand-settings.php:46
+msgid "Delete"
+msgstr "Видалити"
+
+#: template-parts/personal-info/menu-account.php:15
+msgid "My account"
+msgstr "Мій кабінет"
+
+#: template-parts/personal-info/menu-account.php:28
+msgid "Edit personal information"
+msgstr "Редагування особистої інформації"
+
+#: template-parts/personal-info/menu-account.php:30
+msgid "Sign out from account"
+msgstr "Вихід з особистого кабінету"
+
+#: template-parts/personal-info/menu-business.php:12
+msgid "My brands/businesses"
+msgstr "Мої бренди/бізнеси"
+
+#: template-parts/personal-info/menu-business.php:26
+msgid "Brands/businesses settings"
+msgstr "Налаштування брендів/бізнесів"
+
+#: template-parts/personal-info/menu-business.php:30
+msgid "Brands/businesses statistics"
+msgstr "Статистика брендів/бізнесів"
+
+#: template-parts/personal-info/menu-business.php:32
+msgid "Add brand/business"
+msgstr "Додати бренд/бізнес"
+
+#: template-parts/personal-info/messages.php:30
+msgid "You have new messages!"
+msgstr "У вас є нові повідомлення!"
+
+#: template-parts/personal-info/messages.php:30
+msgid "There are no new messages"
+msgstr "Нових повідомлень немає"
+
+#: template-parts/personal-info/messages.php:34
+msgid "View"
+msgstr "Переглянути"
+
+#: template-parts/personal-info/messages.php:53
+msgid "New message"
+msgstr "Нове повідомлення"
+
+#: template-parts/personal-info/parts/brand-info.php:16
+msgid "Activated"
+msgstr "Активний"
+
+#: template-parts/personal-info/parts/brand-info.php:32
+msgid "Under consideration"
+msgstr "Розглядається"
+
+#: template-parts/personal-info/parts/brand-info.php:51
+msgid "Deactivated"
+msgstr "Деактивований"
+
+#: template-parts/personal-info/parts/brand-info.php:59
+msgid "Added:"
+msgstr "Додано:"
+
+#: template-parts/search/search-advanced.php:21
+#: template-parts/search/search-advanced.php:67
+#: template-parts/search/search-advanced.php:99
+#: template-parts/search/search-advanced.php:130
+#: template-parts/search/search-advanced.php:177
+msgid "Search settings"
+msgstr "Налаштування пошуку"
+
+#: template-parts/share.php:4
+msgid "Share the news"
+msgstr "Поділитись новиною"
+
+#: template-parts/similar-news.php:3
+msgid "Related news"
+msgstr "Схожі новини"
+
+#: template-parts/similar-news.php:6
+msgid "View full list"
+msgstr "Переглянути весь список"
+
+msgid "More info"
+msgstr "Більше інформації"
+
+msgid "Get routes"
+msgstr "Прокласти маршрут"
+
+msgid "Addresses"
+msgstr "Адреси"
+
+msgid "Phones"
+msgstr "Телефони"
+
+msgid "Get route on the map"
+msgstr "Прокласти маршрут на мапі"
+
+msgid "Comment Title"
+msgstr "Підсумок коментаря"
+
+msgid "Theme of comment"
+msgstr "Тема відгуку"
+
+msgid "Rating"
+msgstr "Оцінка"
+
+msgid "Your rating"
+msgstr "Ваша оцінка"
+
+msgid "Your comment"
+msgstr "Ваш відгук"
+
+msgid "from 5 stars"
+msgstr "із 5 зірок"
+
+msgid "Your name and surname"
+msgstr "Ваше прізвище та ім’я"
+
+msgid "Your email"
+msgstr "Ваша електронна адреса"
+
+msgid "For example: ivanfranko@mail.com"
+msgstr "Наприклад: ivanfranko@mail.com"
+
+msgid "Next"
+msgstr "Наступна сторінка"
+
+msgid "Previous"
+msgstr "Попередня сторінка"
+
+msgid "Someone requested email changing for the following account:"
+msgstr "Хтось попросив змінити електронну адресу для такого облікового запису:"
+
+msgid "Email: %s"
+msgstr "Електронна адреса: %s"
+
+msgid "New email: %s"
+msgstr "Нова електронна адреса: %s"
+
+msgid "For changing account email, visit the following address:"
+msgstr "Щоб змінити електронну адресу облікового запису, перейдіть за такою адресою:"
+
+msgid "[%s] Email confirmation"
+msgstr "[%s] Підтвердження електронної адреси"
+
+msgid "Didn't receive a confirmation letter?"
+msgstr "Не отримали лист з кодом підтвердження?"
+
+msgid "The email will not be changed until it is confirmed."
+msgstr "Електронна адреса не буде змінена до того, як буде підтвердженна."
+
+msgid "Didn't receive a confirmation SMS?"
+msgstr "Не отримали SMS-повідомлення з кодом підтвердженням?"
+
+msgid "The phone number will not be changed until it is confirmed."
+msgstr "Номер теленону не буде змінено до того, як буде підтвердженний."
+
+msgid "If it isn't in your inbox, check your folders. Maybe a spam filter or email rule moved the email, it might be in the Spam, Junk, Trash, Deleted Items, or Archive folder"
+msgstr "Якщо його немає у папці \"Вхідні\", перевірте свої папки. Можливо фільтр спаму або правило електронної пошти перемістили електронний лист, він може бути в папці \"Спам\", \"Смітник\", \"Кошик\", \"Видалені елементи\" або \"Архів\""
+
+msgid "Email or phone number"
+msgstr "Електронна пошта або номер телефону"
+
+msgid "mail@example.com or +380501234567"
+msgstr "mail@example.com чи +380501234567"
+
+msgid "For example mail@example.com or +380501234567"
+msgstr "Наприклад, mail@example.com чи +380501234567"
+
+msgid "Email confirmation"
+msgstr "Підтвердження електронної пошти"
+
+msgid "Phone number confirmation"
+msgstr "Підтвердження номеру телефону"
+
+msgid "We sent confirmation code to your phone. Put them into field below"
+msgstr "Ми надіслали код підтвердження на ваш телефон. Впишіть його в поле нижче"
+
+msgid "We sent confirmation code to your email. Put them into field below"
+msgstr "Ми надіслали код підтвердження на вашу електронну пошту. Впишіть його в поле нижче"
+
+msgid "Only one step left to finish registration for account!"
+msgstr "Залишився лише один крок для завершення реєстрації аккаунту!"
+
+msgid "For confirming account email, use that code:"
+msgstr "Для підтвердження електронної адреси аккаунту використовуйте цей код:"
+
+msgid "[%s] Confirm Email"
+msgstr "[%s] Підтвердження електронної адреси"
+
+msgid "Code expired. Reload page and try again"
+msgstr "Код підтвердження вичерпав термін придатності. Перезавантажте сторінку та спробуйте знову"
+
+msgid "Code invalid. Check them try again"
+msgstr "Код підтвердження невірний. Перевірте його та спробуйте знову"
+
+msgid "6-symbols code"
+msgstr "6-ти значний код"
+
+msgid "Your OTP is: %s"
+msgstr "Код підтвердження: %s"
+
+msgid "Invalid email or phone number"
+msgstr "Невірна електронна пошта або телефон"
+
+msgid "Calendar of events"
+msgstr "Календар подій"
+
+msgid "Show on map"
+msgstr "Показати на карті"
+
+msgid "Has site"
+msgstr "Є сайт"
+
+msgid "Has photos"
+msgstr "Є фотографії"
+
+msgid "Order online"
+msgstr "Замовити онлайн"
+
+msgid "Accessible for people with disabilities"
+msgstr "Доступно для осіб з інвалідністю"
+
+msgid "Period or date"
+msgstr "Період або дата"
+
+msgid "Now open"
+msgstr "Зараз відчинено"
+
+msgid "All districts"
+msgstr "Усі райони"
+
+msgid "Working hours"
+msgstr "Години роботи"
+
+msgid "Select workings hours"
+msgstr "Оберіть години роботи"
+
+msgid "Around the clock"
+msgstr "Цілодобово"
+
+msgid "Standard period (08:00 - 20:00)"
+msgstr "Стандартний період (08:00 - 20:00)"
+
+msgid "Evening hours (20:00 - 08:00)"
+msgstr "Вечірні години (20:00 - 08:00)"
+
+msgid "Enter your time..."
+msgstr "Введіть свій час..."
+
+msgid "All categories"
+msgstr "Усі категорії"
+
+msgid "Display order"
+msgstr "Відображення"
+
+msgid "First the new ones"
+msgstr "Спочатку нові"
+
+msgid "First the old ones"
+msgstr "Спочатку старі"
+
+msgid "Select a work schedule"
+msgstr "Оберіть графік роботи"
+
+msgid "No holidays (from Monday to Sunday)"
+msgstr "Без вихідних (з понеділка по неділю)"
+
+msgid "Only on weekdays (Monday - Friday)"
+msgstr "Тільки будні дні (понеділок - п&#39ятниця)"
+
+msgid "Only on weekends (Saturday - Sunday)"
+msgstr "Тільки по вихідних (субота - неділя)"
+
+msgid "Select your days of the week..."
+msgstr "Оберіть свої дні тижня..."
+
+msgid "Select the period"
+msgstr "Оберіть період"
+
+msgid "Per month"
+msgstr "За місяць"
+
+msgid "For 3 months"
+msgstr "За 3 місяці"
+
+msgid "For 6 months"
+msgstr "За 6 місяців"
+
+msgid "For a year"
+msgstr "За рік"
+
+msgid "A preview of the uploaded document"
+msgstr "Превью завантаженого документу"
+
+msgid "Your images are being uploaded"
+msgstr "Ваші зображення завантажуються"
+
+msgid "We are uploading your images to the server, please wait"
+msgstr "Ми завантажуємо ваші зображення на сервер, будь ласка, зачекайте"
+
+msgid "Images uploaded:"
+msgstr "Зображень завантажено:"
+
+msgid "Please wait"
+msgstr "Будь ласка, зачекайте"
+
+msgid "Select the desired period in the calendar"
+msgstr "Оберіть потрібний період у календарі"
+
+msgid "Select a start date"
+msgstr "Обрати початкову дату"
+
+msgid "Select the end date"
+msgstr "Обрати кінцеву дату"
+
+msgid "Clear selection"
+msgstr "Очистити вибір"
+
+msgid "Confirm period"
+msgstr "Підтвердити період"
+
+msgid "Clicks on the brand/business"
+msgstr "Кліків по бренду/бізнесу"
+
+msgid "Queries in search"
+msgstr "Запити у пошуку"
+
+msgid "Number of links to the site and social networks followed"
+msgstr "Переходів на сайт та соц. мережи"
+
+msgid "Place in the ranking among brands/businesses"
+msgstr "Місце у рейтингу серед брендів/бізнесів"
+
+msgid "#"
+msgstr "№"
+
+msgid "User rating"
+msgstr "Рейтинг у користувачів"
+
+msgid "New reviews"
+msgstr "Нових відгуків"
+
+msgid "Confirmed by administrator"
+msgstr "Підтверджено адміністратором"
+
+msgid "Rejected by administrator"
+msgstr "Відхилено адміністратором"
+
+msgid "Ownership rejected by administrator"
+msgstr "Право власності відхилено адміністратором"
+
+msgid "Ownership confirmed by administrator"
+msgstr "Право власності підтверджено адміністратором"
+
+msgid "Select a category from the list"
+msgstr "Оберіть категорію зі списку"
+
+msgid "Editing is not available while the brand/business is under review"
+msgstr "Редагування недоступне поки бренд/бізнес розглядається"
+
+msgid "Select a search category"
+msgstr "Оберіть категорію пошуку"
+
+#~ msgid "Go to the place page"
+#~ msgstr "Перейти на сторінку місця"
+
+#~ msgid "Plot a route on a map"
+#~ msgstr "Прокласти маршрут на мапі"
+
+#~ msgid "Address"
+#~ msgstr "Адреса"
+
+#~ msgid "You can check the confirmation of the application on the page of the "
+#~ msgstr "Ви зможете перевірити підтвердження заявки на сторінці "
+
+#~ msgid "will be reviewed by an administrator shortly."
+#~ msgstr "буде розглянутий адміністратором найближчим часом."
+
+#~ msgid "Get routes on the map"
+#~ msgstr "Прокласти маршрут на мапі"
+
+#~ msgid "Підтверджено"
+#~ msgstr "Approved"
+
+#~ msgid "Відхилино"
+#~ msgstr "Rejected"
+
+#~ msgid "Address your page in"
+#~ msgstr "Адреса вашої сторінки в "
+
+#~ msgctxt "brand-settings"
+#~ msgid "Deactivated"
+#~ msgstr "Деактивований"
+
+#~ msgid "Choose a category"
+#~ msgstr "Оберіть категорію"
+
+#~ msgid "Mail or phone number"
+#~ msgstr "Пошта або номер телефону"
+
+#~ msgid "Enter email or phone number associated with your personal account and we sent email or SMS with code for restoring."
+#~ msgstr "Введіть пошту або номер телефону, що прив’язаний до особистого кабінету і ми відправимо вам електронний лист чи SMS з кодом відновлення."
+
+#~ msgid "Active"
+#~ msgstr "Активний"
+
+#~ msgid "The user with such mail or phone is not registered"
+#~ msgstr "Користувач з такою поштою або телефоном не зареєстрований"
+
+#~ msgid "Edit interesting place"
+#~ msgstr "Редагувати Цікаве місце"
+
+#, php-format
+#~ msgid "Search Results for: %s"
+#~ msgstr "Результати пошуку для: %s"
