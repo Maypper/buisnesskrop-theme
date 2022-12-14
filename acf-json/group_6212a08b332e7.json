@@ -1,0 +1,49 @@
+{
+    "key": "group_6212a08b332e7",
+    "title": "Формат відображення бренду у каталозі",
+    "fields": [
+        {
+            "key": "field_6212a09aa9db0",
+            "label": "Оберіть формат",
+            "name": "brand_view_format",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "normal": "Звичайний",
+                "high": "Високий",
+                "wide": "Широкий"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "normal",
+            "layout": "vertical",
+            "return_format": "value",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "brands"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1645388142
+}

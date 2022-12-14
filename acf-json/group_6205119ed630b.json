@@ -1,0 +1,49 @@
+{
+    "key": "group_6205119ed630b",
+    "title": "Місцезнаходження",
+    "fields": [
+        {
+            "key": "field_620511b1c39a3",
+            "label": "Місцезнаходження",
+            "name": "post_location",
+            "type": "google_map",
+            "instructions": "Оберіть місцезнаходження на мапі",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "center_lat": "48.50828239277696",
+            "center_lng": "32.26097949981175",
+            "zoom": "",
+            "height": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "brands"
+            }
+        ],
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "places"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1645090450
+}

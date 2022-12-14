@@ -1,0 +1,66 @@
+{
+    "key": "group_62738e80dbf69",
+    "title": "ППІ Єдиного державного реєстру юридичних осіб, фізичних осіб-підприємців та громадських формувань",
+    "fields": [
+        {
+            "key": "field_62738e80deb9a",
+            "label": "Токен API Єдиного державного реєстру юридичних осіб, фізичних осіб-підприємців та громадських формувань",
+            "name": "edpnou_api_key",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6273967f6b35f",
+            "label": "API Entrypoint",
+            "name": "api_entrypoint",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_62738e80deb9a",
+                        "operator": "!=empty"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/uat-edr-api.minjust.gov.ua",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1651742481
+}

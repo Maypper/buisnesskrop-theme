@@ -1,0 +1,43 @@
+{
+    "key": "group_620d55dad5a10",
+    "title": "Поля брендів (незареєстрований)",
+    "fields": [
+        {
+            "key": "field_620d55fd6835f",
+            "label": "Номер користувача, який додав бренд",
+            "name": "user_number",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "brands"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1645041193
+}
